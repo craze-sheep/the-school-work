@@ -105,6 +105,7 @@ ps -eo pid,%mem,cmd --sort=-%mem | head -n 2
 
 ![输入图片说明](/imgs/2025-03-08/3PZoPWqgRro6tEqL.png)
 ### ① 使用 `sar` 命令查看系统的内存利用率，并解释输出中的各列含义。
+#### 这个需要sudo权限，我就在自己的虚拟机里执行了
 | **列名** | **描述** |
 |:--------------:|-----------|
  | **kbmemfree** | 系统中空闲的内存。 | 
@@ -152,5 +153,5 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3NDY4NjI4XX0=
+eyJoaXN0b3J5IjpbLTg3ODI1OTc3LDg4NzQ2ODYyOF19
 -->
