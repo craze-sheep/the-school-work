@@ -151,13 +151,13 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
 ![输入图片说明](/imgs/2025-03-09/wh2bRi3xdvjhGRpg.png)
 ## 6. 分析程序
 ### ①从这个程序的逻辑来看，不变量是什么？
-#### 从`echo "$a + $b = $(($a+$b))"`来看
+#### 从`echo "$a + $b = $(($a+$b))"`来看系统不变量为：$a + $b=200
 ### ②从这个程序的执行来看，结果是否正确？
 
 ### ③为什么？
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTU1MjkyMjksLTg3ODI1OTc3LDg4Nz
-Q2ODYyOF19
+eyJoaXN0b3J5IjpbMTc0MjE1NzUxMiwtMTYxNTUyOTIyOSwtOD
+c4MjU5NzcsODg3NDY4NjI4XX0=
 -->
