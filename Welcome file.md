@@ -150,8 +150,10 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
 ~~~
 ![输入图片说明](/imgs/2025-03-09/wh2bRi3xdvjhGRpg.png)
 ## 6. 分析程序
+### 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3ODI1OTc3LDg4NzQ2ODYyOF19
+eyJoaXN0b3J5IjpbODk2MzEzNDk2LC04NzgyNTk3Nyw4ODc0Nj
+g2MjhdfQ==
 -->
