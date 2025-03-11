@@ -154,10 +154,11 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
 #### 从`echo "$a + $b = $(($a+$b))"`来看系统不变量为：$a + $b=200
 ### ②从这个程序的执行来看，结果是否正确？
 
+
 ### ③为什么？
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MjE1NzUxMiwtMTYxNTUyOTIyOSwtOD
-c4MjU5NzcsODg3NDY4NjI4XX0=
+eyJoaXN0b3J5IjpbLTE1NDk2MzIyOTQsLTE2MTU1MjkyMjksLT
+g3ODI1OTc3LDg4NzQ2ODYyOF19
 -->
