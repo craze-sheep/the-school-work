@@ -21,9 +21,9 @@
 
 ### 7、shell脚本
 
-## 实验目的
+## 二、实验目的
 ### 本次实验聚焦Linux系统管理与Shell编程，涵盖文件与权限管理（ls/find/chmod）、内存分析（free/top）、网络监控（netstat/curl）及脚本开发，通过命令组合（管道|）、权限机制（SUID/SBIT）、内存映射（pmap）等实践，掌握系统调用原理与自动化运维技能，为服务部署及系统诊断打下基础。
-## 实验步骤
+## 三、实验步骤
 ### 1. 文件系统及管道
 ### ① 执行以下命令并说明其功能：`Is /home | grep "^test"`
 #### `ls /home`是列出 `/home` 目录下的所有文件和子目录。`|`是管道符，将 `ls /home` 的输出作为输入传递给 `grep` 命令。 `grep "^test"`：筛选出前面传过来的以 `test` 开头的行、文件名或者目录名。
@@ -183,14 +183,14 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
 
 ### ③为什么？
 ####  因为并发操作下对共享文件的非原子读写导致了竞态条件。具体表现为：多个 `transfer` 进程同时执行时，会并发读取 `A.txt` 和 `B.txt` 的最后一行数值（如均读取到初始值 `100`），并基于旧值进行计算和写入。由于文件读写操作（`tail` 读取和 `echo` 追加）未加锁或同步，进程间可能交替**读取旧值和覆盖写入，导致答案错误。
-## 实验总结
+## 四、 实验总结
 #### 本次实验通过实践掌握Linux文件管理（`ls/find/grep`）、权限控制（`chmod`特殊权限）及内存监控（`top/free`）等核心操作，重点学习Shell脚本编写与网络工具（`netstat/curl`）应用，并发场景下未加锁的转账脚本因竞态条件导致逻辑混乱，虽验证了不变量（A+B总和恒定），但暴露线程安全问题，同时通过命令与系统调用（如`touch`关联`open`）的关联深化底层理解，为系统部署和自动化运维奠定基础，并强化了规范操作意识。
   
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODI4NTE3NDMsNzg5ODM4ODI4LDIxND
-E1MjA1NDgsLTc5Mzk2OTY4LDQ0MTExMjAzOCw0ODcyOTU5NTYs
-LTE1NDk2MzIyOTQsLTE2MTU1MjkyMjksLTg3ODI1OTc3LDg4Nz
-Q2ODYyOF19
+eyJoaXN0b3J5IjpbMTE0ODU1NjkyOCw3ODk4Mzg4MjgsMjE0MT
+UyMDU0OCwtNzkzOTY5NjgsNDQxMTEyMDM4LDQ4NzI5NTk1Niwt
+MTU0OTYzMjI5NCwtMTYxNTUyOTIyOSwtODc4MjU5NzcsODg3ND
+Y4NjI4XX0=
 -->
