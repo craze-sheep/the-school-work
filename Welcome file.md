@@ -154,14 +154,14 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
 #### 从`echo "$a + $b = $(($a+$b))"`来看系统不变量为：$a + $b=200
 ### ②从这个程序的执行来看，结果是否正确？
 #### 不正确，如图
-
+![输入图片说明](/imgs/2025-03-13/BHPen3xDk4Bu1Xsf.png)
 
 ### ③为什么？
-#### ### 程序的错误源于**并发操作下对共享文件的非原子读写导致的竞态条件**。具体表现为：多个 `transfer` 进程同时执行时，会并发读取 `A.txt` 和 `B.txt` 的最后一行数值（如均读取到初始值 `100`），并基于旧值进行计算和写入。由于文件读写操作（`tail` 读取和 `echo` 追加）未加锁或同步，进程间可能交替执行以下冲突操作： ​**读取旧值**：多个进程同时读取到相同的旧值（如 `A=100`、`B=100`），而非最新状态；**覆盖写入**：计算后的新值（如 `A=99` 和 `A=101`）被无序追加到文件末尾，导致后续操作依赖的最后一行（`tail -n 1`）可能指向中间状态而非正确值； ​**逻辑混乱**：虽然总和始终保持 `200`（不变量成立），但单次转账的原子性被破坏（如预期 `A→B` 和 `B→A` 交替执行，实际因并发调度导致数值增减顺序错乱）。  
+#### <![endif]--> 程序的错误源于**并发操作下对共享文件的非原子读写导致的竞态条件**。具体表现为：多个 `transfer` 进程同时执行时，会并发读取 `A.txt` 和 `B.txt` 的最后一行数值（如均读取到初始值 `100`），并基于旧值进行计算和写入。由于文件读写操作（`tail` 读取和 `echo` 追加）未加锁或同步，进程间可能交替**读取旧值和覆盖写入，导致答案错误。**。  
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTUyMDU0OCwtNzkzOTY5NjgsNDQxMT
-EyMDM4LDQ4NzI5NTk1NiwtMTU0OTYzMjI5NCwtMTYxNTUyOTIy
-OSwtODc4MjU5NzcsODg3NDY4NjI4XX0=
+eyJoaXN0b3J5IjpbLTI1NTUyMDgxMywyMTQxNTIwNTQ4LC03OT
+M5Njk2OCw0NDExMTIwMzgsNDg3Mjk1OTU2LC0xNTQ5NjMyMjk0
+LC0xNjE1NTI5MjI5LC04NzgyNTk3Nyw4ODc0Njg2MjhdfQ==
 -->
