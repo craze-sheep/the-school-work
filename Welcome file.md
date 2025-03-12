@@ -10,7 +10,7 @@
 ### 1、文件系统相关命令：ls、cd、pwd、mkdir、touch、cp、mv、rm、cat、 find、grep、more、less、head、tail、ln、stat、file
 
 ### 2、管道符号
-
+&emsp
 ### 3、权限相关命令：chmod、chown、chgrp，特殊权限：suid、sgid、sbit
 
 ### 4、内存相关命令：free、top、ps、pmap、vmstat、sar
@@ -189,8 +189,8 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODU1NjkyOCw3ODk4Mzg4MjgsMjE0MT
-UyMDU0OCwtNzkzOTY5NjgsNDQxMTEyMDM4LDQ4NzI5NTk1Niwt
-MTU0OTYzMjI5NCwtMTYxNTUyOTIyOSwtODc4MjU5NzcsODg3ND
-Y4NjI4XX0=
+eyJoaXN0b3J5IjpbLTE5OTc2OTY2NDEsNzg5ODM4ODI4LDIxND
+E1MjA1NDgsLTc5Mzk2OTY4LDQ0MTExMjAzOCw0ODcyOTU5NTYs
+LTE1NDk2MzIyOTQsLTE2MTU1MjkyMjksLTg3ODI1OTc3LDg4Nz
+Q2ODYyOF19
 -->
