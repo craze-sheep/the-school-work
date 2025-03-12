@@ -4,7 +4,7 @@
 
 
       
-##  姓名：李曾洋       学号：23020007055
+##  姓名：李曾洋        $~~~~~~~~~~~~~~~~$学号：23020007055
 ## 一、实验内容
 
 ### 1、文件系统相关命令：ls、cd、pwd、mkdir、touch、cp、mv、rm、cat、 find、grep、more、less、head、tail、ln、stat、file
@@ -189,8 +189,8 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0ODc1MzQ4NSw3ODk4Mzg4MjgsMjE0MT
-UyMDU0OCwtNzkzOTY5NjgsNDQxMTEyMDM4LDQ4NzI5NTk1Niwt
-MTU0OTYzMjI5NCwtMTYxNTUyOTIyOSwtODc4MjU5NzcsODg3ND
-Y4NjI4XX0=
+eyJoaXN0b3J5IjpbOTE0MTU4MDE1LDc4OTgzODgyOCwyMTQxNT
+IwNTQ4LC03OTM5Njk2OCw0NDExMTIwMzgsNDg3Mjk1OTU2LC0x
+NTQ5NjMyMjk0LC0xNjE1NTI5MjI5LC04NzgyNTk3Nyw4ODc0Nj
+g2MjhdfQ==
 -->
