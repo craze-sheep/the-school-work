@@ -25,9 +25,10 @@
 ### 1. 文件系统及管道
 ### ① 执行以下命令并说明其功能：`Is /home | grep "^test"`
 #### `ls /home`是列出 `/home` 目录下的所有文件和子目录。`|`是管道符，将 `ls /home` 的输出作为输入传递给 `grep` 命令。 `grep "^test"`：筛选出前面传过来的以 `test` 开头的行、文件名或者目录名。
+
 <img src="/imgs/2025-03-08/5VWlWvzd7RZVhH9B.png" 
      alt="示例图片"
-     style="display:block; margin:auto; max-width:80%; height:auto;">
+     style="display:block; margin:auto; max-width:100%; height:auto;">
 
 ### ②使用管道命令将 `cat` 的输出传递给 `head` 命令，显示文件的前4行内容。
 ![输入图片说明](/imgs/2025-03-08/gqNRJl8aM3hBSjLq.png)
@@ -187,8 +188,8 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MzU3NzEwNCw3ODk4Mzg4MjgsMjE0MT
-UyMDU0OCwtNzkzOTY5NjgsNDQxMTEyMDM4LDQ4NzI5NTk1Niwt
-MTU0OTYzMjI5NCwtMTYxNTUyOTIyOSwtODc4MjU5NzcsODg3ND
-Y4NjI4XX0=
+eyJoaXN0b3J5IjpbLTIxMTA2NDYwNjUsNzg5ODM4ODI4LDIxND
+E1MjA1NDgsLTc5Mzk2OTY4LDQ0MTExMjAzOCw0ODcyOTU5NTYs
+LTE1NDk2MzIyOTQsLTE2MTU1MjkyMjksLTg3ODI1OTc3LDg4Nz
+Q2ODYyOF19
 -->
