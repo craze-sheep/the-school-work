@@ -1,9 +1,7 @@
 
 
 # <center>GNU/Linux shell 进阶实验</center>
-
-
-      
+   
 ##  $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$姓名：李曾洋        $~~~~~~~~~~~~~~~~$学号：23020007055
 
 ## 一、实验内容
@@ -189,8 +187,8 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njc5NDU2NjQsNzg5ODM4ODI4LDIxND
-E1MjA1NDgsLTc5Mzk2OTY4LDQ0MTExMjAzOCw0ODcyOTU5NTYs
-LTE1NDk2MzIyOTQsLTE2MTU1MjkyMjksLTg3ODI1OTc3LDg4Nz
-Q2ODYyOF19
+eyJoaXN0b3J5IjpbMTQ0MzU3NzEwNCw3ODk4Mzg4MjgsMjE0MT
+UyMDU0OCwtNzkzOTY5NjgsNDQxMTEyMDM4LDQ4NzI5NTk1Niwt
+MTU0OTYzMjI5NCwtMTYxNTUyOTIyOSwtODc4MjU5NzcsODg3ND
+Y4NjI4XX0=
 -->
