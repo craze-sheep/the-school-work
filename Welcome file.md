@@ -32,6 +32,8 @@
 
 ### ②使用管道命令将 `cat` 的输出传递给 `head` 命令，显示文件的前4行内容。
 ![输入图片说明](/imgs/2025-03-08/gqNRJl8aM3hBSjLq.png)
+<img src="/imgs/2025-03-08/gqNRJl8aM3hBSjLq.png" width="10000">
+<img src="/imgs/2025-03-08/gqNRJl8aM3hBSjLq.png" width="2000">
 
 ### ③ 使用管道命令将`/lib`目录下的文件按字母顺序对文件名进行排序。
 
@@ -188,8 +190,8 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTA2NDYwNjUsNzg5ODM4ODI4LDIxND
-E1MjA1NDgsLTc5Mzk2OTY4LDQ0MTExMjAzOCw0ODcyOTU5NTYs
-LTE1NDk2MzIyOTQsLTE2MTU1MjkyMjksLTg3ODI1OTc3LDg4Nz
-Q2ODYyOF19
+eyJoaXN0b3J5IjpbLTgzMTgwNzcwNCwtMjExMDY0NjA2NSw3OD
+k4Mzg4MjgsMjE0MTUyMDU0OCwtNzkzOTY5NjgsNDQxMTEyMDM4
+LDQ4NzI5NTk1NiwtMTU0OTYzMjI5NCwtMTYxNTUyOTIyOSwtOD
+c4MjU5NzcsODg3NDY4NjI4XX0=
 -->
