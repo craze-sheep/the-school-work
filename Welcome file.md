@@ -157,11 +157,12 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
 
 
 ### ③为什么？
+#### 多个 `transfer` 进程并发读写同一文件，导致数据不一致。
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxMTEyMDM4LDQ4NzI5NTk1NiwtMTU0OT
-YzMjI5NCwtMTYxNTUyOTIyOSwtODc4MjU5NzcsODg3NDY4NjI4
-XX0=
+eyJoaXN0b3J5IjpbLTc5Mzk2OTY4LDQ0MTExMjAzOCw0ODcyOT
+U5NTYsLTE1NDk2MzIyOTQsLTE2MTU1MjkyMjksLTg3ODI1OTc3
+LDg4NzQ2ODYyOF19
 -->
