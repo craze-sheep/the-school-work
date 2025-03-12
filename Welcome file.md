@@ -1,4 +1,5 @@
 # GNU/Linux shell 进阶实验
+<div style="text-align:center">GNU/Linux shell 进阶实验</div>
 ## 1. 文件系统及管道
 ### ① 执行以下命令并说明其功能：`Is /home | grep "^test"`
 #### `ls /home`是列出 `/home` 目录下的所有文件和子目录。`|`是管道符，将 `ls /home` 的输出作为输入传递给 `grep` 命令。 `grep "^test"`：筛选出前面传过来的以 `test` 开头的行、文件名或者目录名。
@@ -164,8 +165,8 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4MTA1MTg3LDc4OTgzODgyOCwyMTQxNT
-IwNTQ4LC03OTM5Njk2OCw0NDExMTIwMzgsNDg3Mjk1OTU2LC0x
-NTQ5NjMyMjk0LC0xNjE1NTI5MjI5LC04NzgyNTk3Nyw4ODc0Nj
-g2MjhdfQ==
+eyJoaXN0b3J5IjpbMTY3ODgyMzkzNiw3ODk4Mzg4MjgsMjE0MT
+UyMDU0OCwtNzkzOTY5NjgsNDQxMTEyMDM4LDQ4NzI5NTk1Niwt
+MTU0OTYzMjI5NCwtMTYxNTUyOTIyOSwtODc4MjU5NzcsODg3ND
+Y4NjI4XX0=
 -->
