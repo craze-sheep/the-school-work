@@ -4,23 +4,25 @@
 
 
 ## 姓名：李曾洋      学号：23020007055
-## 实验内容
+## 一、实验内容
 
 ### 1、文件系统相关命令：ls、cd、pwd、mkdir、touch、cp、mv、rm、cat、 find、grep、more、less、head、tail、ln、stat、file
 
 ### 2、管道符号
 
-### 2、权限相关命令：chmod、chown、chgrp，特殊权限：suid、sgid、sbit**
+### 3、权限相关命令：chmod、chown、chgrp，特殊权限：suid、sgid、sbit
 
-### 2、内存相关命令：free、top、ps、pmap、vmstat、sar
+### 4、内存相关命令：free、top、ps、pmap、vmstat、sar
 
-### 2、内存信息：/proc/pid/maps、/proc/pid/smaps**
+### 5、内存信息：/proc/pid/maps、/proc/pid/smaps
 
-### 2、网络相关命令：ifconfig、netstat、curl**
+### 6、网络相关命令：ifconfig、netstat、curl
 
-### 2、shell脚本**
+### 7、shell脚本
 
-
+## 实验目的
+### 本次实验聚焦Linux系统管理与Shell编程，涵盖文件与权限管理（ls/find/chmod）、内存分析（free/top）、网络监控（netstat/curl）及脚本开发，通过命令组合（管道|）、权限机制（SUID/SBIT）、内存映射（pmap）等实践，掌握系统调用原理与自动化运维技能，为服务部署及系统诊断打下基础。
+## 实验步骤
 ### 1. 文件系统及管道
 ### ① 执行以下命令并说明其功能：`Is /home | grep "^test"`
 #### `ls /home`是列出 `/home` 目录下的所有文件和子目录。`|`是管道符，将 `ls /home` 的输出作为输入传递给 `grep` 命令。 `grep "^test"`：筛选出前面传过来的以 `test` 开头的行、文件名或者目录名。
@@ -186,7 +188,7 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDI5ODk5MDUsNzg5ODM4ODI4LDIxND
+eyJoaXN0b3J5IjpbLTE1NTk1OTYyNjUsNzg5ODM4ODI4LDIxND
 E1MjA1NDgsLTc5Mzk2OTY4LDQ0MTExMjAzOCw0ODcyOTU5NTYs
 LTE1NDk2MzIyOTQsLTE2MTU1MjkyMjksLTg3ODI1OTc3LDg4Nz
 Q2ODYyOF19
