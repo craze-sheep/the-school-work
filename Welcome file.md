@@ -5,9 +5,20 @@
 
 ## 姓名：李曾洋      学号：23020007055
 ## 实验内容
-|  |  |
-|--|--|
-|  |  |
+
+### 1、文件系统相关命令：ls、cd、pwd、mkdir、touch、cp、mv、rm、cat、 find、grep、more、less、head、tail、ln、stat、file
+
+### 2、管道符号
+
+### 2、权限相关命令：chmod、chown、chgrp，特殊权限：suid、sgid、sbit**
+
+### 2、内存相关命令：free、top、ps、pmap、vmstat、sar
+
+### 2、内存信息：/proc/pid/maps、/proc/pid/smaps**
+
+### 2、网络相关命令：ifconfig、netstat、curl**
+
+### 2、shell脚本**
 
 
 ### 1. 文件系统及管道
@@ -175,7 +186,7 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODczNjgxMzgsNzg5ODM4ODI4LDIxND
+eyJoaXN0b3J5IjpbLTE2MDI5ODk5MDUsNzg5ODM4ODI4LDIxND
 E1MjA1NDgsLTc5Mzk2OTY4LDQ0MTExMjAzOCw0ODcyOTU5NTYs
 LTE1NDk2MzIyOTQsLTE2MTU1MjkyMjksLTg3ODI1OTc3LDg4Nz
 Q2ODYyOF19
