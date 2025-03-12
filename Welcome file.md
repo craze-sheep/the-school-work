@@ -157,11 +157,14 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
 ![输入图片说明](/imgs/2025-03-13/BHPen3xDk4Bu1Xsf.png)
 
 ### ③为什么？
-#### <![endif]--> 程序的错误源于**并发操作下对共享文件的非原子读写导致的竞态条件**。具体表现为：多个 `transfer` 进程同时执行时，会并发读取 `A.txt` 和 `B.txt` 的最后一行数值（如均读取到初始值 `100`），并基于旧值进行计算和写入。由于文件读写操作（`tail` 读取和 `echo` 追加）未加锁或同步，进程间可能交替**读取旧值和覆盖写入，导致答案错误。**。  
+####  因为并发操作下对共享文件的非原子读写导致了竞态条件。具体表现为：多个 `transfer` 进程同时执行时，会并发读取 `A.txt` 和 `B.txt` 的最后一行数值（如均读取到初始值 `100`），并基于旧值进行计算和写入。由于文件读写操作（`tail` 读取和 `echo` 追加）未加锁或同步，进程间可能交替**读取旧值和覆盖写入，导致答案错误。**。
+## 实验总结
+#### 
+  
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTUyMDgxMywyMTQxNTIwNTQ4LC03OT
-M5Njk2OCw0NDExMTIwMzgsNDg3Mjk1OTU2LC0xNTQ5NjMyMjk0
-LC0xNjE1NTI5MjI5LC04NzgyNTk3Nyw4ODc0Njg2MjhdfQ==
+eyJoaXN0b3J5IjpbNzg5ODM4ODI4LDIxNDE1MjA1NDgsLTc5Mz
+k2OTY4LDQ0MTExMjAzOCw0ODcyOTU5NTYsLTE1NDk2MzIyOTQs
+LTE2MTU1MjkyMjksLTg3ODI1OTc3LDg4NzQ2ODYyOF19
 -->
