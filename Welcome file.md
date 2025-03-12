@@ -5,7 +5,7 @@
 
 ## 姓名：李曾洋      学号：23020007055
 
-## 1. 文件系统及管道
+### 1. 文件系统及管道
 ### ① 执行以下命令并说明其功能：`Is /home | grep "^test"`
 #### `ls /home`是列出 `/home` 目录下的所有文件和子目录。`|`是管道符，将 `ls /home` 的输出作为输入传递给 `grep` 命令。 `grep "^test"`：筛选出前面传过来的以 `test` 开头的行、文件名或者目录名。
 <img src="/imgs/2025-03-08/5VWlWvzd7RZVhH9B.png" 
@@ -33,7 +33,7 @@ ls /lib | sort #逆序
 
 #### 目的：出于对计算机的安全性和稳定性考虑，独立的内存空间可以防止恶意程序篡改其他进程的数据，也可以避免因为一个进程的崩溃而影响到其他进程。
 
-## 2. 权限
+### 2. 权限
 ### ① 使用`man`学习`chown`和`chgrp`的功能及用法。
 #### `chown`:用于更改文件或目录的所有者或所属组。
 ####  `chgrp`:用于修改文件或目录的所属用户组。
@@ -45,7 +45,7 @@ man chown #man chgrp，但是老师好像限制我们操作了
 ### ② 在桌面下创建一个目录`data`，使用` chmod `命令将目录`data`设置为 `STICKY BIT` 权限，从而使得在该目录下创建的文件只能被其所有者和超级用户删除。说明：该权限位什么含义？
 #### 含义： 在设置了粘滞位的目录中，​只有所有者和超级用户能删除或重命名文件，而其他用户对该目录有写权限，但无法删除或重命名该文件。可以防止误删或恶意删除他人文件，我感觉在协同开发时这个对项目管理很有用。
 ![输入图片说明](/imgs/2025-03-08/1z9CJod0qCzhfZkd.png)
-## 3. 内存
+### 3. 内存
 ### ① 使用 `free` 命令查看系统的内存使用情况，并解释其中的列名称和含义
 | ​**列名**       | ​**说明**                                                                 | ​**如图​**       |
 |:-------------------:|-------------------------------------------|:-------------------------------:|
@@ -126,7 +126,7 @@ ps -eo pid,%mem,cmd --sort=-%mem | head -n 2
   | **kbinact** | 当前不活跃的内存，即不常使用的内存。 | 
 | **kbdirty** | 被标记为脏页（需要写回磁盘）的内存。 |
 ![输入图片说明](/imgs/2025-03-09/LnNYB3sFkAZHEnc1.png)
-## 4. 网络、`binutils`
+### 4. 网络、`binutils`
 ### ① 使用 `netstat` 命令查看当前系统的网络连接状态，并且只显示`TCP`连接。
 ![输入图片说明](/imgs/2025-03-08/9Wu9oLshWE703u0f.png)
 
@@ -170,7 +170,7 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1NjQ4OTc4LDc4OTgzODgyOCwyMTQxNT
+eyJoaXN0b3J5IjpbNTA2MDc0NzUwLDc4OTgzODgyOCwyMTQxNT
 IwNTQ4LC03OTM5Njk2OCw0NDExMTIwMzgsNDg3Mjk1OTU2LC0x
 NTQ5NjMyMjk0LC0xNjE1NTI5MjI5LC04NzgyNTk3Nyw4ODc0Nj
 g2MjhdfQ==
