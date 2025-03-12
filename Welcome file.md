@@ -1,9 +1,7 @@
 # GNU/Linux shell 进阶实验
 <div style="text-align:center">GNU/Linux shell 进阶实验</div>
 
-<center>
-# GNU/Linux shell 进阶实验
-</center>
+<center># GNU/Linux shell 进阶实验</center>
 
 ## 1. 文件系统及管道
 ### ① 执行以下命令并说明其功能：`Is /home | grep "^test"`
@@ -170,8 +168,8 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDYxOTYzMzIsNzg5ODM4ODI4LDIxND
-E1MjA1NDgsLTc5Mzk2OTY4LDQ0MTExMjAzOCw0ODcyOTU5NTYs
-LTE1NDk2MzIyOTQsLTE2MTU1MjkyMjksLTg3ODI1OTc3LDg4Nz
-Q2ODYyOF19
+eyJoaXN0b3J5IjpbLTU1ODY4NjIxNiw3ODk4Mzg4MjgsMjE0MT
+UyMDU0OCwtNzkzOTY5NjgsNDQxMTEyMDM4LDQ4NzI5NTk1Niwt
+MTU0OTYzMjI5NCwtMTYxNTUyOTIyOSwtODc4MjU5NzcsODg3ND
+Y4NjI4XX0=
 -->
