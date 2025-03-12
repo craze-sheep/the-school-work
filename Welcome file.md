@@ -4,6 +4,21 @@
 
 
 ## 姓名：李曾洋      学号：23020007055
+## 实验内容
+
+ 1. 文件系统相关命令：**ls、cd、pwd、mkdir、touch、cp、mv、rm、cat、 find、grep、more、less、head、tail、ln、stat、file**
+
+2****、管道符号**
+
+**3****、权限相关命令：chmod、chown、chgrp，特殊权限：suid、sgid、sbit**
+
+**4****、内存相关命令：free、top、ps、pmap、vmstat、sar，**
+
+**5****、内存信息：/proc/pid/maps、/proc/pid/smaps**
+
+**6****、网络相关命令：ifconfig、netstat、curl**
+
+**7、shell脚本**
 
 ### 1. 文件系统及管道
 ### ① 执行以下命令并说明其功能：`Is /home | grep "^test"`
@@ -137,7 +152,7 @@ ps -eo pid,%mem,cmd --sort=-%mem | head -n 2
  4. `nm`(`nm lzy`)- 列出符号， 用于列出二进制文件中的符号。
  5. `objcopy`(`objcopy -o binary lzy.o lzy.bin`)- 它可以将目标文件转换为不同的格式，或者修改文件的内容。
 ![输入图片说明](/imgs/2025-03-09/tMgaSP0Y2F9XBxuT.png)
-## 5. `Shell`脚本
+### 5. `Shell`脚本
 ### ① 思考：`shell` 为何知道用 `sh` 来解析这个文件?
  1. 通过 Shebang (`#!`) 指定`sh`解释器来解析这个文件。
  2. 通过 `.sh` 后缀知道它是`shell`文件在交互式`shell`中运行。
@@ -155,7 +170,7 @@ count=$(grep -o "$keyword" "$filename" | wc -l)
 echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
 ~~~
 ![输入图片说明](/imgs/2025-03-09/wh2bRi3xdvjhGRpg.png)
-## 6. 分析程序
+### 6. 分析程序
 ### ①从这个程序的逻辑来看，不变量是什么？
 #### 从`echo "$a + $b = $(($a+$b))"`来看系统不变量为：$a + $b=200
 ### ②从这个程序的执行来看，结果是否正确？
@@ -170,7 +185,7 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA2MDc0NzUwLDc4OTgzODgyOCwyMTQxNT
+eyJoaXN0b3J5IjpbMTkxNjY5MTMwLDc4OTgzODgyOCwyMTQxNT
 IwNTQ4LC03OTM5Njk2OCw0NDExMTIwMzgsNDg3Mjk1OTU2LC0x
 NTQ5NjMyMjk0LC0xNjE1NTI5MjI5LC04NzgyNTk3Nyw4ODc0Nj
 g2MjhdfQ==
