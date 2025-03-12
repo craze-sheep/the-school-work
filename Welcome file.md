@@ -1,4 +1,4 @@
-# 实验1
+# GNU/Linux shell 进阶实验
 ## 1. 文件系统及管道
 ### ① 执行以下命令并说明其功能：`Is /home | grep "^test"`
 #### `ls /home`是列出 `/home` 目录下的所有文件和子目录。`|`是管道符，将 `ls /home` 的输出作为输入传递给 `grep` 命令。 `grep "^test"`：筛选出前面传过来的以 `test` 开头的行、文件名或者目录名。
@@ -159,12 +159,13 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
 ### ③为什么？
 ####  因为并发操作下对共享文件的非原子读写导致了竞态条件。具体表现为：多个 `transfer` 进程同时执行时，会并发读取 `A.txt` 和 `B.txt` 的最后一行数值（如均读取到初始值 `100`），并基于旧值进行计算和写入。由于文件读写操作（`tail` 读取和 `echo` 追加）未加锁或同步，进程间可能交替**读取旧值和覆盖写入，导致答案错误。**。
 ## 实验总结
-#### 
+#### 本次实验通过实践掌握Linux文件管理（`ls/find/grep`）、权限控制（`chmod`特殊权限）及内存监控（`top/free`）等核心操作，重点学习Shell脚本编写与网络工具（`netstat/curl`）应用，并发场景下未加锁的转账脚本因竞态条件导致逻辑混乱，虽验证了不变量（A+B总和恒定），但暴露线程安全问题，同时通过命令与系统调用（如`touch`关联`open`）的关联深化底层理解，为系统部署和自动化运维奠定基础，并强化了规范操作意识。
   
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5ODM4ODI4LDIxNDE1MjA1NDgsLTc5Mz
-k2OTY4LDQ0MTExMjAzOCw0ODcyOTU5NTYsLTE1NDk2MzIyOTQs
-LTE2MTU1MjkyMjksLTg3ODI1OTc3LDg4NzQ2ODYyOF19
+eyJoaXN0b3J5IjpbNTc4MTA1MTg3LDc4OTgzODgyOCwyMTQxNT
+IwNTQ4LC03OTM5Njk2OCw0NDExMTIwMzgsNDg3Mjk1OTU2LC0x
+NTQ5NjMyMjk0LC0xNjE1NTI5MjI5LC04NzgyNTk3Nyw4ODc0Nj
+g2MjhdfQ==
 -->
