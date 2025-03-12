@@ -3,7 +3,7 @@
 # <center>GNU/Linux shell 进阶实验</center>
 
 
-##  姓名：李曾洋   学号：23020007055
+##  姓名：李曾洋  &nbsp  学号：23020007055
 ## 一、实验内容
 
 ### 1、文件系统相关命令：ls、cd、pwd、mkdir、touch、cp、mv、rm、cat、 find、grep、more、less、head、tail、ln、stat、file
@@ -188,7 +188,7 @@ echo "关键词 '$keyword' 在文件 '$filename' 中出现了 $count 次。"
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTM2NDkzNzksNzg5ODM4ODI4LDIxND
+eyJoaXN0b3J5IjpbLTE2Mzk0MTk5OTQsNzg5ODM4ODI4LDIxND
 E1MjA1NDgsLTc5Mzk2OTY4LDQ0MTExMjAzOCw0ODcyOTU5NTYs
 LTE1NDk2MzIyOTQsLTE2MTU1MjkyMjksLTg3ODI1OTc3LDg4Nz
 Q2ODYyOF19
